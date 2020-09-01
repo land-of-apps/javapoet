@@ -5,4 +5,4 @@ jdk:
 import: land-of-apps/land-of-apps:travis/java-imports.yml
 
 script:
-- mvn test
+- mvn test -DargLine="-javaagent:appmap.jar -Dappmap.debug -Dappmap.config.file=./appmap.yml -Dappmap.output.directory=./tmp/appmap"
