@@ -1,0 +1,3 @@
+name: javapoet
+packages:
+- path: com.squareup.javapoet
