@@ -1,3 +1,3 @@
 name: tape
 packages:
-- path: com.squareup
+- path: com.squareup.javapoet
